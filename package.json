@@ -1,0 +1,35 @@
+{
+  "name": "vpinstastream",
+  "version": "0.1.0",
+  "description": "VoxPelli Instagram Streamer",
+  "url": "http://github.com/voxpelli/node-vpinstastream",
+  "license": "MIT",
+  "keywords": [
+    "twitter"
+  ],
+  "author": {
+    "name": "Pelle Wessman",
+    "email": "pelle@kodfabrik.se",
+    "url": "http://kodfabrik.se/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/voxpelli/node-vpinstastream.git"
+  },
+  "engines": {
+    "node": ">=0.8.x",
+    "npm": ">=1.1.x"
+  },
+  "main": "./lib/vpinstastream",
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "request": "~2.21.0",
+    "node-push-helper": "~0.1.1",
+    "underscore": "~1.4.4"
+  },
+  "peerDependencies": {
+    "connect": "~2.7.11"
+  }
+}
