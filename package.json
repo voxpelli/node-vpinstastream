@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "request": "~2.21.0",
-    "node-push-helper": "~0.1.1",
+    "node-push-helper": "git://github.com/voxpelli/node-push-helper.git#master",
     "underscore": "~1.4.4"
   },
   "peerDependencies": {
